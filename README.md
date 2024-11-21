@@ -20,3 +20,6 @@ Directives set as attribute in the template.
 ##### Structural Directives
 - Example: `*ngIf="myCondition"` (Before Angular 17)
 - [Custom Structural Directive](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/44115902)
+- [`ng-template`](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/44115914)
+- [`*ng-if`, `*ng-auth`]I did mention before that this asterisk here in front of a directive is syntactic sugar for using `ng-template`. So instead of using NG template like this you could also add your paragraph like that and add the app auth directive directly on it, but now prefixed with this asterisk.
+- [`hostDirectives` : Apply a structural directive on multiple components](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/44115924)
